@@ -36,4 +36,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            flake8
+            flake8 hello-world.py
